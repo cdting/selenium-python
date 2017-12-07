@@ -43,7 +43,7 @@ element = WebDriverWait(driver, 10).until(   #10表示等待的时间(秒)
 
 ---
 
-## 简单介绍就说到这里了，码字太累了，还有较多API你们自己去看了，如[Alert](http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.alert)弹框处理、鼠标移动元素效果[Action Chains](http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains)等等。
+### 简单介绍就说到这里了，码字太累了，还有较多API你们自己去看了，如[Alert](http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.alert)弹框处理、鼠标移动元素效果[Action Chains](http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains)等等。
 `我的建议是将整个文档都看一遍，这样非常有帮助，可以全局的了解Selenium，毕竟这个文档比较短`[官方文档](http://selenium-python.readthedocs.io/)
 
 ---
@@ -115,4 +115,4 @@ tesseract -v
 pip install selenium
 ```
 ---
-## 至此，环境搭建完成，上面6点出了1、2点其它安装不分先后，也可不用安装4、3点，可通过程序控制手动输入验证码，只是没那么完美。
+### 至此，环境搭建完成，上面6点除了1、2点其它安装不分先后，也可不用安装4、3点，可通过程序控制手动输入验证码，只是没那么完美。
